@@ -13,6 +13,7 @@ public class Shape
   public static final String OVAL = "Oval";           // constant for oval
   public static final String ARC = "Arc"; // constant for arc
   public static final String LINE = "Line"; // constant for line
+  public static final String ROUNDRECT = "RoundRect"; // constant for round rectangle
 
   // private instance variables
   private Color color; // color to draw shape in

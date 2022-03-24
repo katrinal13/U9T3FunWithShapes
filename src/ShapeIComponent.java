@@ -166,6 +166,10 @@ public class ShapeIComponent extends JComponent
       {
         currentShape = new Line();
       }
+      else if (currShapeType.equals(Shape.ROUNDRECT))
+      {
+        currentShape = new RoundRectangle();
+      }
       
       // fill in point1 and point2 in the new shape
       currentShape.setPoint1Values(currX,currY);
